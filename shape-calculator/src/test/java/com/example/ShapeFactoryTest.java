@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ShapeFactoryTest {
+
     @Test
     public void testCreateSquare() {
         Shape square = ShapeFactory.createShape("square", 4);
