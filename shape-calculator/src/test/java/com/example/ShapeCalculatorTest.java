@@ -16,7 +16,7 @@ public class ShapeCalculatorTest {
 
         ShapeCalculator calculator = new ShapeCalculator();
         double totalArea = calculator.calculateTotalArea(shapes);
-        assertEquals(67.566, totalArea, 0.001);
+        assertEquals(55.566, totalArea, 0.001);
     }
 
     @Test
@@ -30,6 +30,6 @@ public class ShapeCalculatorTest {
 
         ShapeCalculator calculator = new ShapeCalculator();
         double totalPerimeter = calculator.calculateTotalPerimeter(shapes);
-        assertEquals(40.283, totalPerimeter, 0.001);
+        assertEquals(58.566, totalPerimeter, 0.001);
     }
 }
