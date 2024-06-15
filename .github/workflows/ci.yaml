@@ -16,5 +16,7 @@ jobs:
         java-version: '11'
     - name: Build with Maven
       run: mvn clean install
+      working-directory: shape-calculator
     - name: Run tests
       run: mvn test
+      working-directory: shape-calculator
